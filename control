@@ -1,0 +1,6 @@
+Architecture: amd64
+Depends: libc6 (>=2.31.0)
+Description: Adaptive Huffman Algorithm
+Maintainer: kei-g <km.8k6ce+debpkg@gmail.com>
+Package: vitter
+Version: 1.0.0
