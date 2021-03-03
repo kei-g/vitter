@@ -1,0 +1,10 @@
+**/*.deb
+**/*.log
+**/*.o
+**/*.vt
+**/.vscode/
+**/control.tar.xz
+**/data.tar.xz
+**/debian-binary
+**/md5sums
+**/vitter

@@ -1,0 +1,11 @@
+language: c
+dist: focal
+addons:
+  apt:
+    packages:
+      - clang
+      - clang-tools
+install:
+  - mkdir -p usr/local/bin
+script:
+  - make test
