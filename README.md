@@ -2,4 +2,4 @@
 
 Adaptive Huffman Algorithm
 
-[![Build Status](https://travis-ci.com/kei-g/vitter.svg?branch=master)](https://travis-ci.com/github/kei-g/vitter)
+[![Build Status](https://travis-ci.com/kei-g/vitter.svg?branch=master)](https://travis-ci.com/kei-g/vitter)
