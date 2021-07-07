@@ -2,5 +2,5 @@
 
 Adaptive Huffman Algorithm
 
-[![Build Status](https://travis-ci.com/kei-g/vitter.svg?branch=main)](https://travis-ci.com/kei-g/vitter)
-[![License](https://img.shields.io/badge/License-BSD%203--Clause-orange.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![Travis CI](https://img.shields.io/travis/com/kei-g/vitter?logo=travis&style=plastic)](https://www.travis-ci.com/github/kei-g/vitter)
+[![License](https://img.shields.io/github/license/kei-g/vitter?style=plastic)](https://opensource.org/licenses/BSD-3-Clause)
