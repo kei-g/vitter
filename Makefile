@@ -1,10 +1,10 @@
 CC = clang
-CFLAGS = -D NDEBUG -O3 -Wall -Werror -march=native
+CFLAGS = -D NDEBUG -Oz -Wall -Werror -flto=full -march=native
 CONTROLFILES = control md5sums
 DEBCONTENTS = debian-binary control.tar.xz data.tar.xz
 DEBPKG = vitter_1.0.0_amd64.deb
 LD = clang
-LDFLAGS = -Wl,-s -dynamic
+LDFLAGS = -Wl,--lto-O3 -Wl,-s -dynamic -fuse-ld=lld
 RM = rm -fr
 TAR = tar
 TARFLAGS = --group root --owner root -ch
@@ -51,3 +51,4 @@ $(DEBPKG): $(DEBCONTENTS)
 
 $(TARGET_BINARY): $(TARGET_OBJECTS)
 	$(LD) $(LDFLAGS) -o $@ $(TARGET_OBJECTS)
+	llvm-strip --strip-all $@
